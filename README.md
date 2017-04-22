@@ -1,4 +1,7 @@
-# test coverage for  [browserify-middleware (v7.1.0)](https://github.com/ForbesLindesay/browserify-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-browserify-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browserify-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browserify-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-browserify-middleware)
+# npmtest-browserify-middleware
+
+#### basic test coverage for  [browserify-middleware (v7.1.0)](https://github.com/ForbesLindesay/browserify-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-browserify-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-browserify-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-browserify-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-browserify-middleware)
+
 #### express middleware for browserify v2
 
 [![NPM](https://nodei.co/npm/browserify-middleware.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/browserify-middleware)
@@ -93,7 +96,8 @@
         "test": "mocha -R spec -t 7000",
         "test:perf": "mocha -R spec -t 7000"
     },
-    "version": "7.1.0"
+    "version": "7.1.0",
+    "bin": {}
 }
 ```
 
